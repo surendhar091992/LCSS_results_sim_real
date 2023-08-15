@@ -21,18 +21,29 @@ a = \begin{bmatrix} \underline{\beta} & \underline{\beta} & 100 & \underline{\be
 $$
 and with $\underline{\beta}=0.1$. The true sensory function has its maximum value at $\mu_3$= [-1.0665 -1.0665] and $\mu_7$= [1.0665 1.0665].
 
+---
 
 # Real-time experiments plot:
 
 The crazyflies tracjectory along with the final Voronoi partition is given below (with true sensory function heatmap as overlay)
-![Robot tracjectory](Real_time_experi/Plots/tracj_plot_real.jpg)
+<img src="Real_time_experi/Plots/tracj_plot_real.jpg" alt="Robot tracjectory" width="400" height="400">
 
-The cost function $V=100*\mathcal{H}+\sum_{i=1}^N \|\tilde{a}_i\|^2$ is shown below (with true sensory function heatmap as overlay)
-![Lyapnunov function](Real_time_experi/Plots/cov_cost_real.jpg)
+---
+
+The cost function is shown below (with true sensory function heatmap as overlay) $$V = 100 * \mathcal{H} + \sum_{i=1}^N \|\tilde{a}_i\|^2$$
+
+<img src="Real_time_experi/Plots/cov_cost_real.jpg" alt="Lyapnunov function" width="400" height="400">
+
+---
 
 The initial and final Voronoi partition is shown below along with Gaussian peaks (with true sensory function heatmap as overlay)
-![Initial Voronoi partition](Real_time_experi/Plots/ini_voro_real.jpg)
-![Final Voronoi partition](Real_time_experi/Plots/final_voro_real.jpg)
+<div style="display: flex; justify-content: space-between;">
+  <img src="Real_time_experi/Plots/ini_voro_real.jpg" alt="Initial Voronoi partition" width="400" height="400">
+  <img src="Real_time_experi/Plots/final_voro_real.jpg" alt="Final Voronoi partition" width="400" height="400">
+</div>
+
+---
 
 The real-time experimental video (5 crazyflies) are shown below along with the overlay of true sensory function as heatmap
 
+[![Watch the video](https://img.youtube.com/vi/djnG_Y_P_To/0.jpg)](https://youtu.be/djnG_Y_P_To)
