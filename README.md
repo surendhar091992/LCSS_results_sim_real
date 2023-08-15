@@ -26,6 +26,7 @@ and with $\underline{\beta}=0.1$. The true sensory function has its maximum valu
 # Real-time experiments plot:
 
 The crazyflies tracjectory along with the final Voronoi partition is given below (with true sensory function heatmap as overlay)
+
 <img src="Real_time_experi/Plots/tracj_plot_real.jpg" alt="Robot tracjectory" width="400" height="400">
 
 ---
@@ -37,6 +38,7 @@ The cost function is shown below (with true sensory function heatmap as overlay)
 ---
 
 The initial and final Voronoi partition is shown below along with Gaussian peaks (with true sensory function heatmap as overlay)
+
 <div style="display: flex; justify-content: space-between;">
   <img src="Real_time_experi/Plots/ini_voro_real.jpg" alt="Initial Voronoi partition" width="400" height="400">
   <img src="Real_time_experi/Plots/final_voro_real.jpg" alt="Final Voronoi partition" width="400" height="400">
